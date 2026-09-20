@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Tuner &amp; Metronome / Akort &amp; Metronom</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    line-height: 1.65; margin: 0 auto; max-width: 760px; padding: 32px 20px 80px;
+    color: #1a1f26; background: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6ebf2; background: #10141a; }
+    code { background: #1c232c; }
+    hr { border-color: #2a323d; }
+  }
+  h1 { font-size: 1.8rem; margin-bottom: .2em; }
+  h2 { font-size: 1.25rem; margin-top: 2em; }
+  h3 { font-size: 1.05rem; margin-top: 1.6em; }
+  .updated { opacity: .7; font-size: .9rem; }
+  hr { margin: 3em 0; border: 0; border-top: 1px solid #d7dde5; }
+  ul { padding-left: 1.2em; }
+  a { color: #b86e00; }
+  code { background: #f0f3f7; padding: .1em .35em; border-radius: 4px; font-size: .9em; }
+  .highlight { border-left: 3px solid #f5a524; padding-left: 14px; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="updated">Application: <strong>Tuner &amp; Metronome</strong> (package <code>com.kont.tuner</code>)<br>
+Last updated: 19 September 2026</p>
+
+<p>This policy explains what data the Tuner &amp; Metronome application handles. It is written to
+match the actual behaviour of the app, not a generic template.</p>
+
+<h2>1. Microphone use — the important part</h2>
+<div class="highlight">
+<p>The tuner needs microphone access to hear your instrument and find its pitch.
+<strong>No audio is ever recorded, saved to a file, or transmitted anywhere.</strong></p>
+<p>Each short block of audio is read into memory, converted into a single number (the pitch
+in hertz) and immediately discarded. Speech and any other sound are never stored, analysed
+for content, or sent off the device.</p>
+<p>The microphone is opened only while the <em>Tuner</em> tab is on screen. When you switch
+to the metronome, leave the app or the screen turns off, the microphone is released.
+The metronome does not use the microphone and works without this permission.</p>
+</div>
+
+<h2>2. Metronome in the background</h2>
+<p>When you start the metronome, it keeps playing while the screen is locked or you use
+another app. To do this, Android requires a foreground service of type "media playback"
+and shows a notification with a Stop button. This service only plays the click sound; it
+never uses the microphone and collects no data. On Android 13 and later the app asks once
+for permission to show that notification; the metronome works even if you refuse.</p>
+
+<h2>3. Data the developer collects</h2>
+<p><strong>None.</strong> The app has no accounts, no sign-in, no servers and no analytics
+belonging to the developer. Nothing you do in the app is sent to the developer.</p>
+
+<h2>4. Data stored on your device</h2>
+<p>The app stores in its own private storage: your settings (note names, reference pitch),
+your selected instrument and tuning, custom tunings you create, metronome settings, saved
+songs, and a practice log (how many seconds the metronome played on each day). This data
+never leaves your device except through Android's own backup, if you have enabled it for
+your Google account. It is deleted when you uninstall the app or clear its data.</p>
+
+<h2>5. Purchases</h2>
+<p>An optional one-time "Pro" purchase is processed entirely by Google Play. The developer
+never sees your payment details. The app only asks Google Play whether the purchase exists,
+so that Pro can be restored on your devices.</p>
+
+<h2>6. Advertising (Google AdMob)</h2>
+<p>The free version shows a banner advertisement supplied by Google AdMob. To serve ads, the
+Google Mobile Ads SDK may collect and process:</p>
+<ul>
+  <li>advertising identifier (Android Advertising ID) and other device identifiers,</li>
+  <li>approximate location derived from your IP address,</li>
+  <li>device information (model, operating system, language, screen size),</li>
+  <li>ad interaction data (whether an ad was shown, viewed or clicked).</li>
+</ul>
+<p>This processing is carried out by Google under its own terms. See
+<a href="https://policies.google.com/technologies/partner-sites">How Google uses information
+from sites or apps that use our services</a> and the
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
+Microphone audio is never shared with advertising partners. Pro users see no ads.</p>
+
+<h3>Consent in the EEA, UK and Switzerland</h3>
+<p>If you are in a region where consent is required, the app shows a Google-certified consent
+screen (Google User Messaging Platform) the first time it runs. You can change your choice at
+any time in <em>Settings → Ad privacy choices</em>. If consent is not given, the app still
+works in full.</p>
+
+<h3>Controlling advertising on your device</h3>
+<p>You can reset or delete your advertising identifier at any time:
+<em>Android Settings → Privacy → Ads</em> (menu names vary by manufacturer).</p>
+
+<h2>7. Permissions</h2>
+<ul>
+  <li><strong>Microphone (RECORD_AUDIO)</strong> — tuner only, as described above.</li>
+  <li><strong>Foreground service / media playback</strong> — metronome in the background.</li>
+  <li><strong>Notifications (POST_NOTIFICATIONS)</strong> — the metronome's Stop notification.</li>
+  <li>Internet access, network state, advertising ID and Android Ad Services permissions
+      are declared by the Google Mobile Ads SDK; billing permission by Google Play Billing.</li>
+</ul>
+<p>The app does not access your camera, location, contacts, photos, files, SMS or call history.</p>
+
+<h2>8. Children</h2>
+<p>The app is a general-purpose music tool and is not directed at children under 13. The
+developer does not knowingly collect any data from children. Ads are limited to content
+suitable for a general audience.</p>
+
+<h2>9. Data deletion</h2>
+<p>Because the developer holds no data about you, there is nothing to request deletion of.
+To remove everything the app stored on your device, uninstall it or use
+<em>Settings → Apps → Tuner &amp; Metronome → Storage → Clear data</em>.</p>
+
+<h2>10. Contact</h2>
+<p>Questions about this policy: <strong>konttechnology@gmail.com</strong></p>
+
+<hr>
+
+<h1>Gizlilik Politikası</h1>
+<p class="updated">Uygulama: <strong>Akort &amp; Metronom</strong> (paket <code>com.kont.tuner</code>)<br>
+Son güncelleme: 19 Eylül 2026</p>
+
+<p>Bu politika, Akort &amp; Metronom uygulamasının hangi verileri işlediğini açıklar. Metin,
+uygulamanın gerçek davranışına göre yazılmıştır.</p>
+
+<h2>1. Mikrofon kullanımı — en önemli bölüm</h2>
+<div class="highlight">
+<p>Akort özelliği, çalgınızı duyup perdesini bulmak için mikrofona ihtiyaç duyar.
+<strong>Hiçbir ses kaydedilmez, dosyaya yazılmaz veya hiçbir yere gönderilmez.</strong></p>
+<p>Okunan her kısa ses bloğu bellekte tek bir sayıya (hertz cinsinden perde) çevrilir ve hemen
+atılır. Konuşma veya başka herhangi bir ses saklanmaz, içerik olarak analiz edilmez ve
+cihazdan dışarı çıkmaz.</p>
+<p>Mikrofon yalnızca <em>Akort</em> sekmesi ekrandayken açılır. Metronoma geçtiğinizde,
+uygulamadan çıktığınızda veya ekran kapandığında mikrofon bırakılır. Metronom mikrofon
+kullanmaz ve bu izin olmadan da çalışır.</p>
+</div>
+
+<h2>2. Arka planda metronom</h2>
+<p>Metronomu başlattığınızda ekran kilitliyken veya başka bir uygulamayı kullanırken de
+çalmaya devam eder. Android bunun için "medya oynatma" türünde bir ön plan hizmeti ister ve
+Durdur düğmeli bir bildirim gösterir. Bu hizmet yalnızca tık sesini çalar; mikrofon kullanmaz
+ve veri toplamaz. Android 13 ve sonrasında uygulama bu bildirim için bir kez izin ister;
+izin vermeseniz de metronom çalışır.</p>
+
+<h2>3. Geliştiricinin topladığı veriler</h2>
+<p><strong>Hiçbiri.</strong> Uygulamada hesap, giriş, sunucu veya geliştiriciye ait analitik
+bulunmaz. Uygulamada yaptığınız hiçbir şey geliştiriciye gönderilmez.</p>
+
+<h2>4. Cihazınızda saklanan veriler</h2>
+<p>Uygulama kendi özel alanında şunları saklar: ayarlarınız (nota adları, referans perde),
+seçtiğiniz çalgı ve akort, oluşturduğunuz özel akortlar, metronom ayarları, kaydettiğiniz
+şarkılar ve çalışma günlüğü (her gün metronomun kaç saniye çaldığı). Bu veriler, Google
+hesabınız için açtıysanız Android'in kendi yedeklemesi dışında cihazınızdan çıkmaz;
+uygulamayı kaldırdığınızda veya verilerini temizlediğinizde silinir.</p>
+
+<h2>5. Satın almalar</h2>
+<p>İsteğe bağlı tek seferlik "Pro" satın alması tamamen Google Play tarafından işlenir.
+Geliştirici ödeme bilgilerinizi hiçbir zaman görmez. Uygulama yalnızca Pro'nun
+cihazlarınızda geri yüklenebilmesi için satın almanın var olup olmadığını Google Play'e sorar.</p>
+
+<h2>6. Reklamlar (Google AdMob)</h2>
+<p>Ücretsiz sürüm, Google AdMob tarafından sağlanan bir banner reklam gösterir. Reklam sunmak
+için Google Mobile Ads SDK'sı şunları işleyebilir:</p>
+<ul>
+  <li>reklam kimliği (Android Advertising ID) ve diğer cihaz tanımlayıcıları,</li>
+  <li>IP adresinden türetilen yaklaşık konum,</li>
+  <li>cihaz bilgileri (model, işletim sistemi, dil, ekran boyutu),</li>
+  <li>reklam etkileşim verileri (gösterim, görüntüleme, tıklama).</li>
+</ul>
+<p>Bu işleme Google tarafından kendi koşulları kapsamında yapılır:
+<a href="https://policies.google.com/technologies/partner-sites">Google'ın, hizmetlerini
+kullanan sitelerden veya uygulamalardan gelen bilgileri nasıl kullandığı</a> ve
+<a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a>.
+Mikrofon sesi reklam ortaklarıyla asla paylaşılmaz. Pro kullanıcılar reklam görmez.</p>
+
+<h3>AEA, Birleşik Krallık ve İsviçre'de onay</h3>
+<p>Onayın gerekli olduğu bir bölgedeyseniz, uygulama ilk açılışta Google onaylı bir izin ekranı
+(Google User Messaging Platform) gösterir. Seçiminizi istediğiniz zaman
+<em>Ayarlar → Reklam gizlilik seçenekleri</em> bölümünden değiştirebilirsiniz. Onay vermeseniz
+de uygulama tam olarak çalışır.</p>
+
+<h3>Cihazınızda reklam kontrolü</h3>
+<p>Reklam kimliğinizi istediğiniz zaman sıfırlayabilir veya silebilirsiniz:
+<em>Android Ayarları → Gizlilik → Reklamlar</em> (menü adları üreticiye göre değişebilir).</p>
+
+<h2>7. İzinler</h2>
+<ul>
+  <li><strong>Mikrofon (RECORD_AUDIO)</strong> — yalnızca akort için, yukarıda anlatıldığı gibi.</li>
+  <li><strong>Ön plan hizmeti / medya oynatma</strong> — arka planda metronom.</li>
+  <li><strong>Bildirimler (POST_NOTIFICATIONS)</strong> — metronomun Durdur bildirimi.</li>
+  <li>İnternet erişimi, ağ durumu, reklam kimliği ve Android Ad Services izinleri Google Mobile
+      Ads SDK'sı, satın alma izni Google Play Billing tarafından bildirilir.</li>
+</ul>
+<p>Uygulama kameranıza, konumunuza, kişilerinize, fotoğraflarınıza, dosyalarınıza, SMS veya
+arama geçmişinize erişmez.</p>
+
+<h2>8. Çocuklar</h2>
+<p>Uygulama genel amaçlı bir müzik aracıdır ve 13 yaş altı çocuklara yönelik değildir.
+Geliştirici bilerek çocuklardan hiçbir veri toplamaz. Reklamlar genel izleyiciye uygun
+içerikle sınırlıdır.</p>
+
+<h2>9. Verilerin silinmesi</h2>
+<p>Geliştirici sizinle ilgili hiçbir veri tutmadığı için silinmesini isteyebileceğiniz bir veri
+yoktur. Uygulamanın cihazınızda sakladığı her şeyi silmek için uygulamayı kaldırın veya
+<em>Ayarlar → Uygulamalar → Akort &amp; Metronom → Depolama → Verileri temizle</em> yolunu kullanın.</p>
+
+<h2>10. İletişim</h2>
+<p>Bu politika hakkında sorular: <strong>konttechnology@gmail.com</strong></p>
+
+</body>
+</html>
